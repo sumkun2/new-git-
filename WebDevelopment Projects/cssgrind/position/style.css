@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    width: 100%;
+    height: 70px;
+    background-color: darkblue;
+    display: inline-block;
+}
+
+.box{
+    width: 900px;
+    height: 1000px;
+    background-color: grey;
+    margin-left:300px;
+} */
+p{
+    text-align: center;
+}
+
+.right-container{
+    width: 150px;
+    height:600px;
+    background-color: pink;
+    margin-right: 10px;
+    display: inline-block;
+}
+.contact{
+    width: 100px;
+    height: 100px;
+    bottom: 50px;
+    left: 600px;
+    border-radius: 50cm;
+    padding: 5px;
+    margin: 20px;
+
+    
+    background-color: red;
+    position: fixed;
+    
+}

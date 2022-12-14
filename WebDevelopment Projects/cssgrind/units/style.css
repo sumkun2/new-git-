@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header h1, header{
+    background-color:#ffc8dd ;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main, main section, main section p{
+    background-color:#cdb4db ;
+    margin: 0;
+    padding: 0;
+}
+
+.rem{
+    font-size: 1.5rem;
+}
+
+.px{
+    font-size: 20px;
+}
+
+.per{
+    font-size: 150%;
+}
+
+.vw{
+    font-size: 5vw;
+}
+
+section{
+    border: 50px solid black;
+    width: 100vw;  /* not recommended to use*/
+    height: 100vh;
+}
+p{
+    border:2px dotted red;
+}

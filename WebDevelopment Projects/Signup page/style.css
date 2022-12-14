@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    /* background-color: lightblue; */
+    background: url(https://images2.alphacoders.com/641/641426.png);
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outer-box{
+    margin:10px;
+    padding: 5 px;
+}
+
+.inner-box{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 400px auto;
+    padding: 10px;
+    position: relative;
+    bottom: 300px;
+    background-color:#84a98c;
+    box-shadow: 5px 5px 10px black;
+    z-index: 2;
+}
+
+.signup-body{
+    padding: 5px;
+}
+
+.signup-body input{
+    padding: 5px;
+    width: 100%
+}
+
+p{
+    padding: 5px;
+}
+
+.signup-footer{
+    text-align: center;
+}
+
+.signup-body input[type = "submit"]{
+    background-color: #52796f;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    padding-top: 7px;
+}
+
+.signup-header p {
+    text-align: center;
+}
+
+/* .circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffffaa, #fffffaaa);
+    position: absolute;
+}
+.c1{
+    left: 280px;
+    top: 50px;
+}
+.c2{
+    right: 280px;
+    bottom: 550px;
+}
+.c3{
+    left: 170px;
+    top: 300px;
+} */

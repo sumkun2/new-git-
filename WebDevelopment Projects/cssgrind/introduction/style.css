@@ -1,0 +1,22 @@
+button{
+    background-color: red;
+}
+
+*{
+    background-color: grey;
+}
+
+#header1{
+    color: purple;
+    background-color: white;
+}
+
+p:hover{
+    font-family: Courier;
+}
+
+p.highlight{
+    background-color: yellow;
+}
+
+
